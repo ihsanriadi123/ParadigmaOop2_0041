@@ -12,7 +12,7 @@ public:
     }
 };
 
-class pekerja : virtual public orang {
+class pekerja : public orang {
     public:
 
     pekerja(int pUmur) :
@@ -22,7 +22,8 @@ class pekerja : virtual public orang {
     }
 };
 
-class pelajar : virtual public orang {
+
+class pelajar : public orang {
     public:
 
     pelajar(int pUmur) :
