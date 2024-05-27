@@ -32,7 +32,6 @@ class pelajar : public orang {
     }
 };
 
-
 class budi : public pekerja, public pelajar {
 public:
 
