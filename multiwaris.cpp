@@ -12,5 +12,13 @@ public:
     }
 };
 
+class pekerja : virtual public orang {
+    public:
 
-class pekerja : virtual public orang 
+    pekerja(int pUmur) :
+        orang(pUmur)
+    {
+        cout << "pekerja dibuat\n" << endl;
+    }
+};
+
