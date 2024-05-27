@@ -15,11 +15,11 @@ public:
     }
 };
 
-
 int main() {
     derivedclass a;
     a.perkenalan();
 
     return 0;
 }
+
 
